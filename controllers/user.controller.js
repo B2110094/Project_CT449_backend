@@ -47,15 +47,6 @@ module.exports = class API {
     }
   }
 
-  //Get Category With id
-  //   static async getauthortwithID(req, res) {
-  //     try {
-  //       const result = await AuthorModel.findOne({ _id: req.params.id });
-  //       res.status(201).json(result);
-  //     } catch (err) {
-  //       res.status(501).json(err);
-  //     }
-  //   }
 
   //Find Category with name
   static async finduserwithName(req, res) {
